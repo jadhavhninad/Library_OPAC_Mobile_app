@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+ 
+    <!-- Book id / Hidden by default -->
+    <TextView
+        android:id="@+id/book_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    
+    <!-- BOOK Name -->
+    <TextView
+        android:id="@+id/book_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="15dip"
+        android:paddingBottom="15dip"
+        android:paddingLeft="10dip"
+        android:textStyle="bold"/>
+    
+    <!-- BOOK Issue Date -->
+    <TextView
+        android:id="@+id/issue_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+ 
+    <!-- BOOK Renewal Date -->
+    <TextView android:id="@+id/renew_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:background="#9ed321"
+        android:paddingRight="3dip"
+        android:paddingLeft="3dip"/>
+    
+    <!-- BOOK Author Name -->
+    <TextView
+        android:id="@+id/book_author"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+      
+ 
+</RelativeLayout>
